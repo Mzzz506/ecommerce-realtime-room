@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-realtime-room",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types src/order_room.test.ts",
+    "start": "node --experimental-strip-types src/order_room.ts"
+  },
+  "dependencies": { "zod": "^3.23.0" },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.6.0" }
+}
